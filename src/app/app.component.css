@@ -1,0 +1,385 @@
+
+
+:root {
+    --verde1c: #1C8C90;
+    --verde1b: #1EBA88;
+  }
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.body{
+  
+  
+}
+
+.body2{
+    background-image: url('../assets/Img/Banner principal.png');
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: bottom; 
+}
+
+.texto-centradoArriba{
+    padding-top: 0%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 330%;
+}
+.centrado{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    font-size: 170%;
+    font-weight: 350;
+    text-align: justify;
+    direction: ltr(center);
+}
+
+.txtDerecha{
+   padding-top: 8%;
+   padding-right: 10%;
+    color: white;
+    text-align:right;
+    direction: ltr(center);
+    
+}
+
+
+.flecha {
+    list-style-image: url(../../src/assets/Img/Flecha.png);
+    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+}
+
+.flecha li{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.masterclass{
+    background-image: url('../assets/Img/Banner principal.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    position: relative;
+    height: 1600px;
+}
+
+.masterclass__header{
+    width: 100%;
+}
+
+.master_contenedor{
+    padding-top: 30% !important;
+}
+.master_contenedor .img1{
+    margin-bottom: 2rem;
+    width: 40%;
+}
+
+.master_contenedor h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.master_contenedor h2{
+    font-size: 86px; 
+    font-weight: bold; 
+    color: white;
+    line-height: .7;
+}
+
+.master_contenedor .text1{
+    font-size: 28px; 
+    color: white;
+    margin-top: 1rem;
+}
+
+.master_contenedor .text_green{
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #1C8C90;
+    margin-bottom: 0px;
+}
+
+.master_contenedor .button_green{
+    background-color: #1C8C90;
+    width: 45%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 26px;
+    border: none;
+    padding: 1rem;
+}
+
+.experiencia_header{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.experiencia_container{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.experiencia_container .card{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    border: none;
+      border-top-color: currentcolor;
+      border-top-style: none;
+      border-top-width: medium;
+    border-top: 14px #1C8C90 solid;
+    height: 80%;
+}
+
+.experiencia_container .card img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experiencia_container .card p{
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.experiencia_container .card_large{
+    padding-left: 4rem;
+}
+
+
+
+.card_large .card ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  
+  .card_large .card  ul li {
+    margin-bottom: 1rem;
+    font-size: 30px;
+  }
+
+  .card_large .card  ul li::before {
+    content: "\2022";
+    color: #1C8C90;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 30px;
+  }
+
+  .eventos .eventos_container{
+    background-color: #fff;
+    padding-left: 7%;
+    padding-right: 7%;    
+}
+  .eventos .eventos_header_title{
+    color: #1EBA88;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+
+  }
+
+  .eventos .eventos_header_text{
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: left;
+    padding: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .Trans_digital .Trans_digital_container{
+    padding-top: 4rem;
+    padding-left: 7%;
+    padding-right: 7%;    
+}
+
+.Trans_digital .Trans_digital_container h1{
+    text-align: center;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 4rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Trans_digital .Trans_digital_container h4{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+.Trans_digital .trans_video{
+    box-shadow: 5px 5px 20px;
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Trans_digital .trans_video iframe{
+    width: 100%;
+}
+
+.Trans_digital .Trans_digital_container h5{
+    text-align: center;
+    color: #1EBA88;
+    padding-left: 2rem;
+    padding-right: 20rem;
+    margin-bottom: 4rem;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista{
+    padding-left: 2rem;
+    padding-right: 20rem;
+    margin-bottom: 4rem;   
+}
+
+.Trans_digital .Trans_digital_container li{
+    margin-bottom: .5rem;   
+
+}
+
+
+.Trans_digital .Trans_digital_container .trans_lista .trans_lista_img1{
+    list-style-image: url(../../src/assets/Img/Estrategia.png);
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista .trans_lista_img2{
+    list-style-image: url(../../src/assets/Img/Tecnología.png);
+    margin-right: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+    align-content: center;
+   
+}
+
+.Trans_digital .Trans_digital_container .trans_lista .trans_lista_img3{
+    list-style-image: url(../../src/assets/Img/Análisi de procesos.png);
+    margin-right: 10px;
+   margin-left: 5px;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista .trans_lista_img4{
+    list-style-image: url(../../src/assets/Img/Hoja de ruta.png);
+    margin-right: 10px;
+   margin-left: 5px;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista .trans_lista_img5{
+    list-style-image: url(../../src/assets/Img/Qué hacer.png);
+    margin-right: 10px;
+   margin-left: 5px;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista{
+    margin-left: 4rem;
+}
+
+.Trans_digital .Trans_digital_container .trans_lista p{
+    font-size: 20px;
+}
+
+
+.Trans_digital .Trans_digital_form{
+    background-color: #fff;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Trans_digital .Trans_digital_form h1{
+    text-align: center;
+    color: #1C8C90;
+    margin-bottom: 2rem;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_inputs{
+    margin-bottom: .5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_inputs label{
+    margin-bottom: .5rem;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_inputs input{
+    border-color: #1C8C90;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_combo{
+    margin-bottom: 2rem;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_combo label{
+    margin-bottom: 0.5rem;
+}
+
+.Trans_digital .Trans_digital_form .Trans_digital_form_inputs select{
+    border-color: #1C8C90;
+   
+}
+
+.Trans_digital .Trans_digital_form button{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #1C8C90;
+    width: 220px;
+}
+
+.footer{
+    background-color: #1C8C90;
+    position: relative;
+    height: 100px;    
+}
+
+.footer img{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.line_vert{
+    width: 10px;
+    height: 50px;
+    background-color: #1C8C90;
+    position: absolute;
+    top: 13%;
+    border-radius: 10px;
+}
+
+.line_horiz{
+    width: 60px;
+    height: 10px;
+    background-color: #1C8C90;
+    position: absolute;
+    top: 9%;
+    border-radius: 10px;
+}
