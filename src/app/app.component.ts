@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { YouTubePlayerModule } from "@angular/youtube-player";
+import { PersonaService } from './services/persona.service';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,16 @@ export class AppComponent {
     'Consolidación de implementación del ERP BAAN V',
     "Diseño y construcción de los MDF's de la INTRANET",
     'Migración de la operación crítica de Data Center Comercial'];
+
+  public personas: Array<any>=[]
+
+  constructor(private personaService:PersonaService)
+    {
+      this.personaService.getPersonas().subscribe((resp: any)=>{
+        console.log (resp)
+        this.personas = resp
+      })
+    }
 
 }
 
